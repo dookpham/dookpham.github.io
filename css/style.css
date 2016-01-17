@@ -1,0 +1,107 @@
+body {
+  font-family: Futura;
+}
+
+#topbar {
+  position: relative;
+  background-color: #111;
+  width: 110%;
+  height: 5em;
+  left: -1em;
+  top: -1em
+}
+
+.navtext {
+  position: relative;
+  color: #AAA;
+}
+
+#name {
+  display: inline-block;
+  top: -4em;
+  left: 2em;
+  cursor: pointer;
+}
+
+#projects {
+  display: inline-block;
+  top: -4em;
+  left: 6em;
+  cursor: pointer;
+}
+
+#about-group {}
+
+#about-me {
+  position: relative;
+  top: -4em;
+  left: 2em;
+  width: 20em;
+}
+
+#twitter {
+  position: relative;
+  width: 3em;
+  left: 2em;
+  top: -4em
+}
+
+#github {
+  position: relative;
+  width: 3em;
+  left: 2em;
+  top: -4em
+}
+
+#email {
+  position: relative;
+  width: 3em;
+  left: 2em;
+  top: -3.9em
+}
+
+#email-label {
+  position: relative;
+  top: -4em;
+  left: 2em;
+}
+
+#project-group {
+  position: relative;
+  left: 20.5em;
+  top: -7em;
+}
+
+.proj-img {
+  position: relative;
+  width: 3em;
+  height: 3em;
+  left: -5em;
+  top: 4.3em;
+  border-radius: 50%;
+  border: 1px solid black
+}
+
+.proj-label {
+  width: 20em;
+}
+
+#wiki-div {
+  position: relative;
+  top: -3em;
+}
+
+#tactics-div {
+  position: relative;
+  top: -6em;
+}
+
+#logic-div {
+  position: relative;
+  top: -9em;
+}
+
+#pomodoro-div {
+  position: relative;
+  top: -12em;
+}
