@@ -30,7 +30,19 @@ body {
   cursor: pointer;
 }
 
-#about-group {}
+#about-group {
+  position: relative;
+  top: 2em;
+}
+
+#profile-pic {
+  position: relative;
+  top: -4em;
+  left: 2em;
+  width: 15em;
+  
+  border-radius: 10em;
+}
 
 #about-me {
   position: relative;
