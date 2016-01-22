@@ -30,6 +30,13 @@ body {
   cursor: pointer;
 }
 
+#articles {
+  display: inline-block;
+  top: -4em;
+  left: 10em;
+  cursor: pointer;
+}
+
 #about-group {
   position: relative;
   top: 2em;
@@ -81,7 +88,7 @@ body {
 #project-group {
   position: relative;
   left: 20.5em;
-  top: -7em;
+  top: -5em;
 }
 
 .proj-img {
@@ -96,6 +103,7 @@ body {
 
 .proj-label {
   width: 20em;
+  pointer-events: none;
 }
 
 #wiki-div {
@@ -116,4 +124,15 @@ body {
 #pomodoro-div {
   position: relative;
   top: -12em;
+}
+
+
+#articles-group {
+  position: relative;
+  left: 2em;
+  top: 0em;
+}
+
+.article{
+  
 }
